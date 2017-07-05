@@ -1,0 +1,31 @@
+{
+  "name": "protractorhelpers",
+  "version": "0.1.0",
+  "description": "a collection of functions for protractor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerogravit1/protractorHelpers.git"
+  },
+  "keywords": [
+    "protractor",
+    "support",
+    "helper"
+  ],
+  "author": "Jonathan Schaffer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zerogravit1/protractorHelpers/issues"
+  },
+  "homepage": "https://github.com/zerogravit1/protractorHelpers#readme",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-githooks": "*",
+    "grunt-jscs": "^3.0.1",
+    "jscs": "^3.0.7"
+  }
+}
