@@ -4,7 +4,7 @@ module.exports = function( grunt ) {
   grunt.initConfig( {
     jscs: {
       default: {
-        src: '**/*.js',
+        src: './src/*.js',
         options: {
           config: '.jscs.json'
         }
