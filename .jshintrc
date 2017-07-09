@@ -22,5 +22,12 @@
     "unused": true,
 
     // Environment
-    "node": true
+    "node": true,
+
+    "globals":{
+        "browser": false,
+        "by": false,
+        "element": false,
+        "protractor": false
+    }
 }
